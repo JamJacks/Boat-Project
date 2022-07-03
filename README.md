@@ -1,5 +1,17 @@
 # Boat-Project
 
+## Github setup
+### Download Git Bash
+In your personal files,right click in the file you want to save everything to and select "Git Bash Here"
+
+In the Git Bash terminal, type "git clone https://github.com/JamJacks/Boat-Project.git", the files should be downloaded after that.
+
+### Pulling new changes
+
+
+### Commiting changes you made
+
+
 ## Setup
 The boat controller communicates with all the external systems using CAN. In order to do this, a CAN Arduino sheild. 
 You have to download external libraries for the LCD and CAN functionalities. You may have to change syntax because of slightly different libraries, please let me know if you run into any weird errors while compiling. 
@@ -12,6 +24,7 @@ If you go to tools -> serial monitor within the arduino IDE, and set the baud ra
 Eventually the I2C and BMS codes will have to be combined, I'm developing them seperately for now for testing purposes.
 
 ### Test system
+
 ## CapSend
 Sends emulated CM350 CAN signals. Can be used instead of CM350 for testing. Potentiometers are used as mock inverter inputes to set different motor speeds, temperatures, etc.
 
